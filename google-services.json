@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "641446750364",
+    "project_id": "fir-loginsignup-de540",
+    "storage_bucket": "fir-loginsignup-de540.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641446750364:android:7d86cdf431f9c36c3ee559",
+        "android_client_info": {
+          "package_name": "com.victor.firebaseloginsignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641446750364-5u95sffajphik9anme0sf80i6p4hvu8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.victor.firebaseloginsignup",
+            "certificate_hash": "39a13ed75feb577c31a24dde900c95d7fbd465ad"
+          }
+        },
+        {
+          "client_id": "641446750364-f4ikbj0ncad4jr4pv3kqsi36loo3jj94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQOZBftz20N2euloIlXohWEinVsRm-f4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641446750364-f4ikbj0ncad4jr4pv3kqsi36loo3jj94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
