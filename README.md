@@ -1,6 +1,7 @@
 # FirebaseLoginSignup 
 
-Login & Signup using Firebase Auithentication with a great UI
+This project is an Android application that provides a simple and intuitive user interface for Login and Signup features using Firebase Authentication. It offers the ability to authenticate users with email and password, as well as with Google Sign-In. The UI is designed with a modern and appealing Material Theme, and makes use of a CardView for the Login and Signup screens. The project also includes the use of external design tools such as Canva and Figma to create custom graphics and UI elements. Overall, this project is a great example of how to integrate Firebase Authentication and UI design into an Android application.
+
 ## Tech Stack
 
 * Java
