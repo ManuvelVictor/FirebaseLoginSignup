@@ -25,12 +25,10 @@ import com.victor.firebaseloginsignup.databinding.ActivityLoginBinding;
 import org.jetbrains.annotations.Nullable;
 
 public class LoginActivity extends AppCompatActivity {
-
     private ActivityLoginBinding binding;
-
     private FirebaseAuth auth;
-
     private GoogleSignInClient mGoogleSignInClient;
+    private final int RC_SIGN_IN = 123;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,8 +95,6 @@ public class LoginActivity extends AppCompatActivity {
         binding.btnGoogle.setOnClickListener(v -> login());
     }
 
-    int RC_SIGN_IN = 123;
-
     private void login() {
         Intent LoginIntent = new Intent(mGoogleSignInClient.getSignInIntent());
         startActivityForResult(LoginIntent, RC_SIGN_IN);
@@ -125,8 +121,7 @@ public class LoginActivity extends AppCompatActivity {
                 .addOnCompleteListener(this, task -> {
                     if (task.isSuccessful()) {
                         Log.d("TAG", "signInWithCredential:success ");
-                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                        startActivity(intent);
+                        startActivity(new Intent(LoginActivity.this, MainActivity.class));
                         Toast.makeText(LoginActivity.this, "Login with Google successful", Toast.LENGTH_SHORT).show();
                     } else {
                         Log.w("TAG", "LoginWithCredential:failure", task.getException());
