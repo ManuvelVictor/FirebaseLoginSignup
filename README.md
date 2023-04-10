@@ -11,4 +11,4 @@ Login & Signup using Firebase Auithentication with a great UI
 
 ## Screenshots
 
-![App Screenshot](https://github.com/ManuvelVictor/FirebaseLoginSignup/blob/master/Homepage.png)
+![Login page](https://user-images.githubusercontent.com/81816979/230933236-55dfe3c6-d285-45cd-885c-8597d4f44cd3.png)
