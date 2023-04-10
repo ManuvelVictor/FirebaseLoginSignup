@@ -57,6 +57,12 @@ public class SignUpActivity extends AppCompatActivity {
             }
         });
 
+        if (auth.getCurrentUser() != null) {
+            // User is already signed in, start the Main Activity
+            startActivity(new Intent(SignUpActivity.this, MainActivity.class));
+            finish(); // close the SignUp Activity
+        }
+
         // Set up click listener for already signed up text view
         binding.alreadySignedUpTextview.setOnClickListener(view -> {
             // Go to login activity
